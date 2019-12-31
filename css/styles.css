@@ -1,0 +1,45 @@
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .025rem .05rem rgba(0, 0, 0, .5);
+}
+
+.center_text{
+  text-align: center;
+}
+
+.underlay{
+  background-color: rgba(230, 230, 230, 0.88);
+  padding: 4%;
+  -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
+.info{
+  font-size: 0.86em;
+}
+
+.location_time{
+  padding: 4%;
+  font-size: 1.1em;
+}
+
+.top_margin{
+  margin-top: 2%;
+}
+
+.radius{
+  border-radius: 6px;
+}
+
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
