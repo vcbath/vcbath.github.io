@@ -35,6 +35,13 @@ body {
   border-radius: 6px;
 }
 
+.list > pre > code {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
+  box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
+}
+
 #myVideo {
   z-index: -1;
   position: fixed;
