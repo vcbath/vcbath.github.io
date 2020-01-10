@@ -4,6 +4,18 @@
 
 body {
   text-shadow: 0 .025rem .05rem rgba(0, 0, 0, .5);
+  background-image:url('/background.png');
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+hr {
+    margin: 0 auto;
+    width: 40%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
 }
 
 .center_text{
@@ -11,43 +23,22 @@ body {
 }
 
 .underlay{
-  background-color: rgba(230, 230, 230, 0.88);
+  background-color: rgba(250, 250, 250, 0.94);
   padding: 4%;
   -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
   box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.5);
 }
 
-.info{
-  font-size: 0.94em;
-}
-
 .location_time{
-  padding: 4%;
-  font-size: 1.1em;
-  margin-bottom: 0px;
+  font-size: 110%;
 }
 
-.top_margin{
+.main_wrapper{
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .radius{
   border-radius: 6px;
-}
-
-.list > pre > code {
-  border-radius: 6px;
-  -webkit-box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
-  box-shadow: inset 1px 1px 6px 0px rgba(0,0,0,0.5);
-}
-
-#myVideo {
-  z-index: -1;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
 }
