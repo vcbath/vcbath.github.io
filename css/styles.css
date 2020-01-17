@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  text-shadow: 0 .025rem .05rem rgba(0, 0, 0, .5);
   background-image:url('/background.png');
   background-attachment:fixed;
   background-repeat: no-repeat;
