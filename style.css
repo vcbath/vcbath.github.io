@@ -2,6 +2,10 @@ body {
   background-color: rgb(250, 250, 250);
 }
 
+div.container {
+  margin-top: 1em;
+}
+
 .center_text {
   text-align: center;
 }
