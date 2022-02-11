@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+div.container {
+  margin-top: 1em;
+}
+
+.center_text {
+  text-align: center;
+}
+
+/* Right-align first column in table. */
+table#schedule th:nth-child(1),
+table#schedule td:nth-child(1) {
+  text-align: right;
+}
